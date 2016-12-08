@@ -16,7 +16,7 @@
 
     <default>
         <staempfli_console>
-                <vendor_dir>../vendor</vendor_dir>
+                <vendor_dir>../vendor</vendor_dir> <!-- Related path from magento base dir -->
         </staempfli_console>
     </default>
 </config>
