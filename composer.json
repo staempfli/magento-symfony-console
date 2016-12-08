@@ -1,0 +1,8 @@
+{
+    "name":"staempfli/magento-symfony-console",
+    "type":"magento-module",
+    "require":{
+        "magento-hackathon/magento-composer-installer":"*",
+        "symfony/console": "*"
+    }
+}

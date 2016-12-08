@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Staempfli_Console>
+            <version>0.1.0</version>
+        </Staempfli_Console>
+    </modules>
+
+    <global>
+        <models>
+            <staempfli_console>
+                <class>Staempfli_Console_Model</class>
+            </staempfli_console>
+        </models>
+    </global>
+
+    <default>
+        <staempfli_console>
+                <vendor_dir>../vendor</vendor_dir>
+        </staempfli_console>
+    </default>
+</config>

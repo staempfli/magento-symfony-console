@@ -1,0 +1,3 @@
+app/code/community/Staempfli/Console                       app/code/community/Staempfli/Console
+app/etc/modules/Staempfli_Console.xml                      app/etc/modules/Staempfli_Console.xml
+bin/*                                                      bin/
