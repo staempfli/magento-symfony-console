@@ -28,7 +28,7 @@ composer require "staempfli/magento-symfony-console":"~1.0"
     </default>
     ```
 
-2. Create your class under Model and extend from `Staempfli_Console_Model_Command`
+2. Create your class under `Model` and extend from `Staempfli_Console_Model_Command`
 
     ```
     <?php
@@ -59,7 +59,7 @@ If you use a custom `vendor-dir`, you can configure that in your project `etc/co
 ```
 <default>
     <staempfli_console>
-            <vendor_dir>../vendor</vendor_dir> <!-- Related path from magento base dir -->
+        <vendor_dir>../vendor</vendor_dir> <!-- Related path from magento base dir -->
     </staempfli_console>
 </default>
 ```
