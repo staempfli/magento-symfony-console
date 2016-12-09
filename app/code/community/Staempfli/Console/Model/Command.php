@@ -10,7 +10,7 @@ use Symfony\Component\Console\Command\Command;
 
 class Staempfli_Console_Model_Command extends Command
 {
-    public function __construct($name)
+    public function __construct($name = null)
     {
         if (!$name) {
             $name = null;
